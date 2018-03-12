@@ -42,7 +42,7 @@ public class main {
 
     private static boolean AbrirNavegador(String URL) {
         try {
-            System.setProperty("webdriver.chrome.driver", "D:\\Users\\jesmuner\\Documents\\NetBeansProjects/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "D:/chromedriver.exe");
             objDriver = new ChromeDriver();
             objDriver.get(URL);
 
